@@ -1,0 +1,23 @@
+#include <iostream>
+#include <fstream>
+#include <stdlib.h>
+
+#idef _WIN32
+#define CLEAR "cls"
+#elif defined(unix)||defined(__unix__)||defined(__unix)||defined(__APPLE__)||defined(__MACH__)
+#define CLEAR "clear"
+#else
+#error "doesn't work"
+#endif
+
+using namespace std;
+
+class menu
+{
+    private:
+        string nombre;
+        string address;
+        string cellular
+        string Date of birth;
+        string Student ID;
+};
